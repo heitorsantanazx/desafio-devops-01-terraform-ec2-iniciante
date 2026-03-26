@@ -9,7 +9,7 @@ Neste desafio, você criará uma infraestrutura simples composta por:
 - Execução de **User Data** instalando automaticamente um webserver
 - Exposição do **IP público** via outputs
 
-A proposta deste repositório é oferecer um ambiente de prática:  
+A proposta deste repositório é oferecer um ambiente prático para estudo.  
 👉 a pasta **desafio/** contém os arquivos para você implementar  
 👉 a pasta **solucao/** contém a implementação final
 
@@ -25,15 +25,16 @@ desafio-devops-01-terraform-ec2-iniciante/
 └── README.md      → Este arquivo
 ```
 
-## 📌 Onde escrever seu código?
+## 📌 Como completar o seu desafio?
 
-Todo o código que você deve desenvolver está na pasta:
+Todo o desenvolvimento do seu código deve ser feito dentro da pasta:
 
 ```
 /desafio
 ```
+Nela você encontrará um README com instruções detalhadas, dicas e, quando necessário, arquivos auxiliares para te orientar na construção da solução.
 
-A solução está aqui:
+Quando terminar ou quiser comparar a sua abordagem, a solução final está disponível em:
 
 ```
 /solucao

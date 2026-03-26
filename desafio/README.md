@@ -64,7 +64,7 @@ Digite no Google: _"terraform aws_security_group ingress example"_
 Dica: use a função `file()`, algo como:
 
 ```
-user_data = file("caminho/do/arquivo")
+user_data = file("${path.module}/user_data.sh")
 ```
 
 ## 💡 5. Não se esqueça do output
