@@ -1,4 +1,4 @@
-# ✅ Solução — Desafio DevOps #01 (Terraform + EC2)
+# ✅ Solução — Desafio DevOps #01 — Criar EC2 com Terraform (Nível Iniciante)
 
 Parabéns por chegar até aqui!  
 Esta é a solução completa para o Desafio DevOps #01, onde o objetivo era provisionar uma instância EC2 utilizando Terraform, configurar um Security Group e instalar um webserver via User Data.
