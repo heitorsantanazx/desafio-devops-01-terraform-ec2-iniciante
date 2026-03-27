@@ -1,0 +1,15 @@
+# Arquivos
+
+terraform.tfvars
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# * serve para substituir qualquer caracter ou palavra
+# ? serve para substituir um unico caracter
+# ** serve para substituir qualquer numero de diretorios
+# ! serve para negar um padrao
+# Intervalos que são entre [] e podem ser usados para negar ou incluir um intervalo de caracteres
+# Exemplo:
+# * .terraform e ele ignora todos os arquivos e pastas que terminarem com .terraform
