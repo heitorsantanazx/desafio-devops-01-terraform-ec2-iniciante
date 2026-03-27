@@ -1,60 +1,74 @@
-# 🧩 Desafio DevOps #01 — Criar EC2 com Terraform (Nível Iniciante)
+# 🚀 Desafio DevOps #1 - Terraform EC2
 
-Este é o primeiro desafio da série **Desafios DevOps**, criado para ajudar iniciantes a praticar conceitos fundamentais de **Infraestrutura como Código (IaC)** utilizando **Terraform** na AWS.
+Este projeto foi desenvolvido como solução para o desafio proposto no repositório original:
 
-Neste desafio, você criará uma infraestrutura simples composta por:
+👉 https://github.com/bfeliano/desafio-devops-01-terraform-ec2-iniciante
 
-- Uma instância **EC2**
-- Um **Security Group** liberando portas 22 e 80
-- Execução de **User Data** instalando automaticamente um webserver
-- Exposição do **IP público** via outputs
+---
 
-A proposta deste repositório é oferecer um ambiente prático para estudo.  
-👉 a pasta **desafio/** contém os arquivos para você implementar  
-👉 a pasta **solucao/** contém a implementação final
+## 📌 Objetivo
 
-Divirta-se aprendendo DevOps com Terraform! ☁️💻🔥
+Provisionar uma infraestrutura na AWS utilizando Terraform, incluindo:
 
-## 📁 Estrutura do Repositório
+* VPC customizada
+* Subnet pública
+* Internet Gateway
+* Route Table
+* Security Group (HTTP + SSH)
+* EC2 com Apache configurado automaticamente via `user_data`
 
-```
-desafio-devops-01-terraform-ec2-iniciante/
-│
-├── desafio/       → Onde você deve escrever seu próprio código Terraform
-├── solucao/       → Solução completa e funcional
-└── README.md      → Este arquivo
-```
+---
 
-## 📌 Como completar o seu desafio?
+## 🛠️ Tecnologias utilizadas
 
-Todo o desenvolvimento do seu código deve ser feito dentro da pasta:
+* Terraform
+* AWS EC2
+* AWS VPC
+* Bash (user_data)
 
-```
-/desafio
-```
-Nela você encontrará um README com instruções detalhadas, dicas e, quando necessário, arquivos auxiliares para te orientar na construção da solução.
+---
 
-Quando terminar ou quiser comparar a sua abordagem, a solução final está disponível em:
+## ⚙️ Como executar o projeto
 
-```
-/solucao
+```bash
+terraform init
+terraform plan
+terraform apply
 ```
 
-## 🛠️ Pré-requisitos
+---
 
-Antes de começar, instale:
+## 🌐 Resultado
 
-- **Terraform**  
-  https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli  
-- **AWS CLI** configurado (`aws configure`)  
-  Instalação: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html  
-  Configuração: https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html
+Após o deploy, acesse o IP público exibido:
 
-Você deve possuir também uma **conta AWS** com permissões básicas de EC2 e VPC.
+```bash
+public_ip = "SEU_IP_AQUI"
+```
 
-## 🤝 Contribuições
+E você verá:
 
-Pull requests com melhorias em documentação, estrutura ou sugestões para novos desafios são bem-vindos!
+```
+Desafio DevOps #1 — Deploy realizado com sucesso!
+```
+
+---
+
+## 📷 Evidência
+
+(Coloque aqui um print do navegador com o site funcionando)
+
+---
+
+## 💡 Aprendizados
+
+* Infraestrutura como Código (IaC)
+* Configuração de rede na AWS
+* Automação com Terraform
+* Uso de `user_data` para provisionamento automático
+
+---
+
 
 ## 📄 Licença
 
