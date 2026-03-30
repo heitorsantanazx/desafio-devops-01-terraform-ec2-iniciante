@@ -33,7 +33,7 @@ Provisionar uma infraestrutura na AWS utilizando Terraform, incluindo:
 ```bash
 terraform init
 terraform plan
-terraform apply
+terraform apply / terraform apply -auto-approve
 ```
 
 ---
@@ -99,6 +99,7 @@ E você verá:
 * Configuração de rede na AWS
 * Automação com Terraform
 * Uso de `user_data` para provisionamento automático
+* Boas práticas no Terraform e na conta free tier da AWS
 
 ---
 

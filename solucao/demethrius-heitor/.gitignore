@@ -6,6 +6,8 @@ terraform.tfvars
 *.tfstate.*
 .terraform.lock.hcl
 
+# Anotações:
+
 # * serve para substituir qualquer caracter ou palavra
 # ? serve para substituir um unico caracter
 # ** serve para substituir qualquer numero de diretorios
